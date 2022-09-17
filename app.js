@@ -17,6 +17,8 @@ const addTextWatermarkToImage = async function(inputFile, outputFile, text) {
     catch (error){
         console.log('Something went wrong... Try again!')
     }
+    console.log('Success!')
+    startApp()
 };
 
 const addImageWatermarkToImage = async function(inputFile, outputFile, watermarkFile) {
@@ -34,6 +36,8 @@ const addImageWatermarkToImage = async function(inputFile, outputFile, watermark
     catch (error){
         console.log('Something went wrong... Try again!')
     }
+    console.log('Success!')
+    startApp()
 };
 
 const prepareOutputFilename = (text) => {
